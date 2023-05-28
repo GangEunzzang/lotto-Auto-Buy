@@ -42,4 +42,4 @@ jobs:
 
     - name: Run!
       run: |        
-        python main.py ${{secrets.MEMBER_ID}} ${{secrets.MEMBER_PW}}
+        python main.py ${{secrets.LOTTO_USER_ID}} ${{secrets.LOTTO_USER_PW}}
