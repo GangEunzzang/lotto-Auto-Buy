@@ -4,7 +4,7 @@ name : Lotto-Auto-Buy
 on:
   schedule:
 #     - cron: '53 * * * *'
-    - cron: '30 23 * * 5' # UST 기준의 크론. UST 23:30 는 KST 08:30 (+09:00)
+    - cron: '30 23 * * 1,5' # UST 기준의 크론. UST 23:30 는 KST 08:30 (+09:00)
 
 jobs:
   build:
